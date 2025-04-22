@@ -2,8 +2,7 @@
 
 ## Description
 
-This is a desktop application written in Python that interactively visualizes the unit circle and the fundamental trigonometric functions (sine, cosine, tangent) using the `pyqtgraph` library. It allows users to dynamically change the angle and observe how this affects the values of the trigonometric functions and their graphical representation on the unit circle and function plots.
-
+This is a desktop application written in Python that interactively visualizes the unit circle and the fundamental trigonometric functions (sine, cosine, tangent) using the `pyqtgraph` library. 
 ## Main Features
 
 *   **Interactive Angle Adjustment:**
