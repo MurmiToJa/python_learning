@@ -2,7 +2,8 @@
 
 These are a few small projects I've been working on:
 
-- [ ] Ball
+- [x] Ball
+- [x] SinCosTan App
 - [ ] Curve
 - [ ] Calculator
 - [ ] JPG to ASCII

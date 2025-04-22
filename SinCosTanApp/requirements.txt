@@ -1,0 +1,41 @@
+# Requirements for Unit Circle Visualizer (PyQtGraph)
+
+# --- Core Dependencies ---
+
+# Numerical library for array operations and math functions
+numpy
+
+# Plotting library used for all visualizations
+pyqtgraph
+
+# --- Qt Bindings ---
+# You need *ONE* of the following Qt bindings libraries.
+# The provided script example uses PyQt6 by default in the last version.
+# If you modify the script to use PyQt5 or PySide6, make sure
+# the corresponding library is installed and uncommented below,
+# while commenting out the others.
+
+PyQt6
+# PyQt5
+# PySide6
+
+# --- Installation ---
+# You can install these packages using pip:
+# pip install -r requirements.txt
+# or individually:
+# pip install numpy pyqtgraph PyQt6
+
+# --- Notes ---
+# - Versions: Specific versions are not pinned here to allow installation
+#   of the latest compatible versions. If you encounter issues or need strict
+#   reproducibility, you can pin versions after installation using:
+#     pip freeze > requirements_pinned.txt
+#   Example of pinned versions (versions might differ on your system):
+#   # numpy==1.26.4
+#   # pyqtgraph==0.13.3
+#   # PyQt6==6.6.1
+#   # PyQt6-Qt6==6.6.1
+#   # PyQt6-sip==13.6.0
+
+# - PySide6: If you choose PySide6, the command would be:
+#   # pip install numpy pyqtgraph PySide6
